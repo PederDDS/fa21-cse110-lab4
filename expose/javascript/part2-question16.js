@@ -15,15 +15,3 @@ for (var stat in statistics) {
     }
 }
 
-//Question 18
-
-let d = new Date();
-let time = d.toLocaleTimeString();
-console.log(time);
-
-var intervalID = setInterval(myCallback, 1000, console.log(time) );
-
-function myCallback(time)
-{
-
-}
