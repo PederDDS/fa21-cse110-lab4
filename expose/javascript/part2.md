@@ -39,4 +39,11 @@ true === Boolean(2)=true
 15. Explain the difference between the == and === operators.
 Double equals checks for "loose equality" vs triple checks for "strict equality". Strict involves that the both the type and value must be equal for the expression to be true. In contrast, loose only checks if the value is the same and tries to mach the type of the variables. 
 17. Callback and the array is passed into the function. If callback wasent passed into the function it would not be defined inside the modify array scope. The for-loop iterates through the array and using the the dosomething function doubles the value of each element. 
-18. 
+19. SetTimeout will delay output from line 1 with one second. Output from line 4 will acutally be printed to the console before line 5 as the function is a bit delayd even when the delay is set to 0.
+```
+1
+4
+3
+2
+    
+```
