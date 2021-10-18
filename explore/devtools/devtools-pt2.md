@@ -1,0 +1,2 @@
+1. The bug is that numb1 and numb 2 are added to each other as strings. 
+2. This can be fixed by defining og casting numb1 or numb2 to being numbers. This can be done in several ways. I chose to to it with parseInt(numbx,10), as we then also determine the numerical system which can be an advantage. 
