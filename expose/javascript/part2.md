@@ -12,14 +12,19 @@
 12. Given the above Object, write the notation for:  (These should be in your part2.md)
 A. Accessing the value of the name property in the student object
 student.name
+
 B. Accessing the value of the Grad Year property in the student object
 student['Grad Year']
+
 C. Calling the function for the greeting property in the student object
 student.greeting();
+
 D. Accessing the name property of the object in the Favorite Teacher property in student
+student['Favorite Teacher'].name
 
 E. Access the first index in the array of the courseLoad property of the student object
 student.courseLoad[0]
+
 13. Arithmetic
 '3' + 2 = '32'
 '3' - 2 = 1

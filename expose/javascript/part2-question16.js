@@ -8,9 +8,9 @@ let statistics = {
     rareCars:2
 };
 
-for (var stat in statistics) {
-    if (stat[0]=='r' || statistics[stat]%2==1){
-        console.log(statistics[stat])
+for (var element in statistics) {
+    if (stat[0]=='r' || statistics[element]%2==1){
+        console.log(statistics[element])
 
     }
 }
